@@ -4,12 +4,10 @@
 1. Download and install **Visual Studio Code**
 
   - Instructions: https://code.visualstudio.com/Docs/setup
-  - Add code command to *.bash_profile* to type **code .** in Terminal
-    ```
-    cd ~/
-    open -e .bash_profile
-    ```
-  - Also add the following tp .bash_profile:
+  - Navigate to root: ```cd ~/```
+  - To create a .bash_profile file: ```touch .bash_profile```
+  - To edit an existnig .bash_profile file: ```open -e .bash_profile```
+  - Also add the following to .bash_profile:
     ```
     export PATH="~/npm-global/bin:$PATH" 
     source dnvm.sh
