@@ -15,7 +15,9 @@
 2. Install **ASP.NET 5** on Mac OS X
 
   - Instructions: http://docs.asp.net/en/latest/getting-started/installing-on-mac.html
-  - Insatll Homebrew if needed
+  - Install Homebrew if needed
+    + ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+    + Install command line developer tools when prompted
   - Uninstall `kvm` if previously installed
   - Get homebrew `dnx` repo (tap)
     ```
