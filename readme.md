@@ -30,6 +30,7 @@
     dnvm
     dnvm upgrade
     ```
+  - If ```dnvm``` will not run enter: ```source dnvm.sh```
   
 3. Run **console sample**
   - Create ConsoleApp folder
